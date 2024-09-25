@@ -5,3 +5,5 @@ cab.*
 
 from tgfcab cab
 inner join tgfpar par on (par.codparc = cab.codparc)
+
+where cab.nunota = 1
