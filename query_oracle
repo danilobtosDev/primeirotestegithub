@@ -1,3 +1,7 @@
 select
-*
-from tgfcab
+cab.nunota,
+cab.codparc
+cab.*
+
+from tgfcab cab
+inner join tgfpar par on (par.codparc = cab.codparc)
